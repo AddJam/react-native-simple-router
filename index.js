@@ -30,7 +30,7 @@ const propTypes = {
   statusBarColor: PropTypes.string,
   statusBarProps: PropTypes.object,
   titleStyle: Text.propTypes.style,
-  sceneStyle: View.propTypes.sceneStyle
+  sceneStyle: View.propTypes.style
 };
 
 const styles = StyleSheet.create({
