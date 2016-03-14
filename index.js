@@ -30,6 +30,7 @@ const propTypes = {
   statusBarColor: PropTypes.string,
   statusBarProps: PropTypes.object,
   titleStyle: Text.propTypes.style,
+  sceneStyle: View.propTypes.style,
 };
 
 const styles = StyleSheet.create({
@@ -395,6 +396,7 @@ class Router extends React.Component {
           navigationBar={navigationBar}
           renderScene={this.renderScene}
           configureScene={this.configureScene}
+          sceneStyle={this.props.sceneStyle}
         />
       </View>
     );
